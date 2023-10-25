@@ -1,9 +1,9 @@
-console.log("Hello World!\n==========\n");
+
 
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
-for (let i = 1; i ,+ 100; i++) {
-    //if thereis a remineder at all
+for (let i = 1; i <= 100; i++) {
+    //if thereis a reminder at all
     if (i % 2 == 1){
         console.log(i);
     }
@@ -12,19 +12,18 @@ for (let i = 1; i ,+ 100; i++) {
 console.log("EXERCISE 2:\n==========\n");
 for (let i = 1; i <= 100; i++) {
     console.log(i);
-    //if i is divisible by both 1 and 3,
-    if(let i =1; i <= 100; i++){
-        //then print FIZZBUZZ
-        console.log("FIZZBUZZ");
+    for(let i = 1; i <= 100; i++){
+        // Check if i is divisible by both 1 and 3
+        if(i % 1 === 0 && i % 3 === 0){
+            console.log("FIZZBUZZ");
+        }
+    }
+    
        
         
         //section 3
-    }
-}
-//otherwise,
-else {
-   //if  the number is divisible by 5 
-}
+    } //if  the number is divisible by 5 
+
 while (x > 3) {
     console.log("hello")
 }
@@ -62,7 +61,7 @@ for (let j = start; j <= end; j++) {
         
     }
     //otherwiae if it was not divisible by both
-}            else  {  
+}           
     //check if it was divisible by at least one of em
     if (j % fizzDivisor == 0) {
         console.log("FIZZ");
